@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXX-Y', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Stacker: Free Savings Accounts for Your Goals</title>
+    <meta name="description" content="Start free savings accounts for the things you want most in life with the Stacker app.">
+<style>
+body, html {
+    height: 100%;
+}
+
+    .parallax {
+        /* The image used 
+        
+        **proxima nova/lite/bold
+        background-image: url('img/splashHead.jpg');*/
+
+        /* Full height */
+        height: 100%;
+        width: 100%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallaxb {
+        /* The image used */
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/pexels-photo-195280.jpeg');
+
+        /* Full height */
+        height: 100%;
+        width: 100%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .parallaxc {
+        background-image: url('img/NewWayToSave_Slice.png');
+        background-attachment: fixed;
+        background-position: right;
+        background-repeat: no-repeat;
+        height: 90%;
+ 
+        
+    }
+    
+    .parallaxMid {
+        /* The image used */
+        background-image: url('img/GENERALSAVING.jpg');
+
+        /* Full height */
+        height: 20%;
+        width: 100%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .parallaxMidb {
+        /* The image used */
+        background-image: url('img/TRAVEL.jpg');
+
+        /* Full height */
+        height: 20%;
+        width: 100%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .w3-hide-small{
+        display:none!important
+    }
+    
+    li{
+        float:left;
+        padding:0px;
+    }
+    
+    .w3-modal {
+    z-index: 3;
+    display: none;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+    
+    .w3-animate-opacity {
+    animation: opac 0.8s;
+}
+    
+    .w3-modal-content {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    width: 600px;
+}
+    
+    .w3-white, .w3-hover-white:hover {
+    color: #000!important;
+    background-color: #fff!important;
+}
+    
+    .w3-container, .w3-panel {
+    padding: 0.01em 16px;
+}
+    
+    .w3-wide {
+    letter-spacing: 4px;
+}
+    
+    .w3-border {
+    border: 1px solid #ccc!important;
+}
+    
+    .w3-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+    
+    .w3-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+    
+    .w3-block {
+    display: block;
+    width: 100%;
+}
+    
+    .w3-padding-large {
+    padding: 12px 24px!important;
+}
+    .w3-green, .w3-hover-red:hover {
+    color: #fff!important;
+    background-color: rgb(49,237,154)!important;
+}
+    .w3-black, .w3-hover-red:hover {
+    color: #fff!important;
+    background-color: rgb(0,0,0)!important;
+}
+    .w3-margin-bottom {
+    margin-bottom: 16px!important;
+}
+    .modalFont {
+        font-family: sans-serif;
+        font-size: 18px;
+    }
+    
+    .modalHeaderFont {
+        font-family: sans-serif;
+        font-size:40px;
+    }
+    
+    
+</style>
+</head>
+<body>
+    
+    <?php
+
+    ?>
+
+<div class="parallax">
+    <div style="width:100%; height: 80%; background:linear-gradient(to right, rgba(218,253,145,1), rgba(51,238,154,1)); overflow:auto;">
+        <img src="img/Splash_HeroLogo.png" width="200px" style="margin-left:10%">
+        
+        
+    <div style="width:48%; float:right;  align-items:center; margin-top:0.5%;">
+            <img src="img/Hero_Slice.png"  width="50%" height="465" style="float:right;padding-right:135px; padding-top:65px">
+            
+            
+        </div>
+        <div style="width:40%; float:right; margin-top: 50px">
+            <p style="font-family: sans-serif;font-size:18px;display:block;text-align:left;line-height:2;width:90%">Welcome to Stacker, a free mobile app designed to help you save money and meet your financial goals. Join our mailing list today to stay in the loop and be among the first to try out the app this Fall.</p>
+        </div>
+    <button style="background-color:black;color:white;text-align:center;font-size:16px;border-radius:50px;margin-left:25%;padding:20px;width:12%" onclick="document.getElementById('download').style.display='block'">Sign up</button>
+    </div>
+    <div style="width:100%; background-color:white;height:15%; margin-top:10px; text-align:center;">
+    <h3 style="font-family: sans-serif;text-align:center;font-size:18px">Learn More</h3>
+        <img src="img/learnMore.png">
+    </div>
+    </div>
+
+    <div style="height:100%;background-color:white;text-align:left;">
+    
+        <div style="width:50%; float:right; align-items:stretch;margin-top:4%">
+            <img src="img/NewWayToSave_Slice.png"  width="100%" height=auto style="float:right">
+            
+        </div>
+        
+        <div style="width:30%;float:right; margin-top:5%;">  
+            
+            <div style="width:25%; height:5px; background-color:rgb(49,237,154);"></div>
+            
+            <h1 style="font-family: sans-serif;text-align:left;font-size:50px">A whole new </h1><h1 style="font-family: sans-serif;text-align:left;font-size:50px">way to save.</h1>
+            
+            <div>   
+                <p style="font-family: sans-serif;font-size:18px;display:block;text-align:left;line-height:2;width:80%">Personalized savings accounts at your fingertips. Easily set goals with friends, family, or on your own. Automate or add lump sums to save at your own pace.</p>
+            </div>
+            <div >
+                <i><a href="https://www.facebook.com/thestackerapp" target="_blank"><img src="img/Facebook_Icon.png"></a></i>
+            <i><a href="https://www.instagram.com/thestackerapp/" target="_blank"><img src="img/Instagram_Icon.png"></a></i>
+            <i><a href="https://twitter.com/thestackerapp" target="_blank"><img src="img/Twitter_Icon.png"></a></i>
+            <i><a href="https://www.youtube.com/channel/UCGC0914iarL_R91a4rKiK7A" target="_blank"><img src="img/Youtube_Icon.png"></a></i>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+<div class="parallaxMid"></div>
+    
+    <div style="height:100%;background-color:white;text-align:;font-size:36px;">
+    
+        <div style="width:50%; float:left; align-items:stretch;margin-top:5%">
+            <img src="img/Animation_Web.gif"  width="100%" height=auto>
+            
+        </div>
+        
+        <div style="width:30%;float:left;margin-left:0.5%;margin-top:4%">  
+            
+            <div style="width:25%; height:5px; background-color:rgb(49,237,154);float:right;"></div>
+            
+            <h1 style="font-family: sans-serif;important;text-align:right;font-size:50px;">Make more</h1> <h1 style="font-family: sans-serif;important;text-align:right;font-size:50px">happen.</h1>
+            
+            <div>   
+                <p style="font-family: sans-serif;font-size:18px;text-align:right;line-height:1.75;width:80%;float:right">Whether is time to budget for your wedding, Coachella, or a simple phone bill, Stacker makes it easy for you to save toward the things you want, and watch your money grow. </p>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+<div class="parallaxMidb"></div>
+    
+    <div style="height:100%;background-color:white;text-align:left;font-size:36px;">
+    
+        <div style="width:50%; float:right;  align-items:stretch; margin-top:4%;">
+            <video width="100%" height=auto controls autoplay loop muted>
+                <source src="vid/Lifestyle_CutV1.mp4" type="video/mp4">
+            </video>
+        </div>
+        
+        <div style="width:30%;float:right; margin-top:1%;">  
+            
+            <div style="width:25%; height:5px; background-color:rgb(49,237,154);"></div>
+            
+            <h1 style="font-family: sans-serif;important;font-size:50px;">Easy. Safe.</h1> <h1 style="font-family: sans-serif;important;font-size:50px;">Free</h1>
+            
+            <div>   
+                <p style="font-family: sans-serif;font-size:18px;display:block;text-align:left;line-height:2;width:80%">Once your goal is met, the money is returned to your bank account, so you can switch from stacking to spending.</p>
+                <p style="font-family: sans-serif;font-size:16px;display:block;text-align:left;margin-top:9%;">Questions? Our team is happy to help.</p>
+                <h3 style="font-family: sans-serif;font-size:16px;display:block;text-align:left;">support@thestackerapp.com</h3>
+            </div>
+        </div>
+        
+        
+    </div>
+
+<div class="parallaxb">
+    <div style="align-content:center;text-align:center;padding-top:75px">
+        <div style="color:white;"><h1 style="font-family: sans-serif;important;font-size:80px;">Be the first.</h1></div>
+        <div style="color:white;"><p style="font-family: sans-serif;font-size:20px;display:block;">Stacker will be available for IPone this Fall 2017. </p><p style="font-family: sans-serif;font-size:20px;display:block;">Join our Email List to be among the First to start stacking.</p></div>
+    <div style="padding-top:50px;">
+        <button style="background-color:rgb(49,237,154);color:black;text-align:center;font-size:16px;border-radius:50px;padding:20px;width:12%" onclick="document.getElementById('download').style.display='block'">Sign up</button></div>
+    </div>
+    
+</div>
+    
+<div style="background-color:rgb(0,0,0);color:#ffffff;opacity:0.9;padding:5px 20px;height:auto;margin:0px;text-align:center;">
+    <div>   
+    <p style="text-align:center; font-family: sans-serif; font-size: 14px;"> Copyright c 2016-2017 Stacker Incorporated</p>
+    </div>
+        <!--<div style="float:right;width:20%:height:20px;">-->
+            <i style="float"><a href="https://www.facebook.com/thestackerapp" target="_blank"><img src="img/Facebook_Icon.png"></a></i>
+            <i><a href="https://www.instagram.com/thestackerapp/" target="_blank"><img src="img/Instagram_Icon.png"></a></i>
+            <i><a href="https://twitter.com/thestackerapp" target="_blank"><img src="img/Twitter_Icon.png"></a></i>
+            <i><a href="https://www.youtube.com/channel/UCGC0914iarL_R91a4rKiK7A" target="_blank"><img src="img/Youtube_Icon.png"></a></i>
+        
+    </div>
+
+<div id="download" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('download').style.display='none'" class="fa fa-remove w3-xlarge w3-button w3-transparent w3-right w3-xlarge"></i>
+      <h2 class="w3-wide modalHeaderFont">Sign me up</h2>
+      <p class = "modalFont">Keep me updated</p>
+      <i class="fa fa-android w3-large"></i> <i class="fa fa-apple w3-large"></i> <i class="fa fa-windows w3-large"></i>
+      
+        <form action="/test.php" method="post">
+            <p><input class="w3-input w3-border" type="text" name="name" placeholder="Name"></p>
+            <p><input class="w3-input w3-border" type="text" name="email" placeholder="E-mail"></p>
+            <p><input class="w3-input w3-border w3-green" type="submit" value="Submit"></p>
+        </form>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-black w3-margin-bottom" onclick="document.getElementById('download').style.display='none'">Close</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
